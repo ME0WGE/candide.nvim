@@ -25,3 +25,5 @@ palette.lua -> all colors definition
 highlight/ -> core editor highlighting
 integrations/ -> plugin-specific highlights
 util.lua -> helper functions for highlights
+
+lua/candide/init.lua -> theme bootstrapper
