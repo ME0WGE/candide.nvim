@@ -1,1 +1,1 @@
-require("candide").setup()
+require("candide").load()
