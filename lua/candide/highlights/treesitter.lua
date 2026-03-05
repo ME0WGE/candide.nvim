@@ -5,7 +5,7 @@ local M = {}
 function M.setup(c)
     util.hl("@function", { fg = c.blue })
     util.hl("@string", { fg = c.green })
-    util.hl("@keyword", { fg = c.purple })
+    util.hl("@keyword", { fg = c.magenta })
     util.hl("@type", { fg = c.yellow })
 end
 

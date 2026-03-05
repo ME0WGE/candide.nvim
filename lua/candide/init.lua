@@ -14,11 +14,11 @@ function M.load()
 	require("candide.highlights.editor").setup(palette)
 	require("candide.highlights.syntax").setup(palette)
 	require("candide.highlights.treesitter").setup(palette)
-	require("candide.highlights.lsp").setup(palette)
+	--require("candide.highlights.lsp").setup(palette)
 
 
-	require("candide.integrations.telescope").setup(palette)
-	require("candide.integrations.gitsigns").setup(palette)
+	--require("candide.integrations.telescope").setup(palette)
+	--require("candide.integrations.gitsigns").setup(palette)
 end
 
 return M

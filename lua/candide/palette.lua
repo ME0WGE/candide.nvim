@@ -1,16 +1,26 @@
 local palette = {
-	bg	= "#000000",
-	fg	= "#C9C9D9",
+	bg = "#000000",
+	fg = "#aaaaaa",
+	bg_dark = "#0a0a0a",
+	bg_highlight = "#1c1c1c",
 
-	orange	= "#FFD97C",
-	red		= "#FF7B72",
-	green	= "#D1FFE1",
-	light_green = "#E1FFF8",
-	blue	= "#51FEFF",
-	purple	= "#FFB8FF",
+	black   = "#000000",
+	red     = "#aa0000",
+	green   = "#00aa00",
+	yellow  = "#aa5500",
+	blue    = "#0000aa",
+	magenta = "#aa00aa",
+	cyan    = "#00aaaa",
+	white   = "#aaaaaa",
 
-	gray	= "#FCFFF7",
-	darkgray = "#30363D"
+	bright_black   = "#555555",
+	bright_red     = "#ff5555",
+	bright_green   = "#8AFF8A",
+	bright_yellow  = "#ffff55",
+	bright_blue    = "#5555ff",
+	bright_magenta = "#ff55ff",
+	bright_cyan    = "#55ffff",
+	bright_white   = "#ffffff",
 }
 
 return palette
