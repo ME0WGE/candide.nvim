@@ -1,29 +1,31 @@
 # candide.nvim
 
 ## Project structure
-mytheme.nvim
-├─ colors/
-│  └─ mytheme.lua
-├─ lua/
-│  └─ mytheme/
-│      ├─ init.lua
-│      ├─ palette.lua
-│      ├─ util.lua
-│      ├─ highlights/
-│      │   ├─ editor.lua
-│      │   ├─ syntax.lua
-│      │   ├─ treesitter.lua
-│      │   └─ lsp.lua
-│      └─ integrations/
-│          ├─ telescope.lua
-│          ├─ gitsigns.lua
-│          ├─ neo-tree.lua
-│          └─ lazy.lua
-└─ README.md
 
-palette.lua -> all colors definition
-highlight/ -> core editor highlighting
-integrations/ -> plugin-specific highlights
-util.lua -> helper functions for highlights
+```
+candide.nvim/
+├── colors
+│   ├── candide-ansi87.lua
+│   └── candide-default.lua
+├── lua
+│   └── candide
+│       ├── highlights
+│       │   ├── editor.lua
+│       │   ├── lsp.lua
+│       │   ├── syntax.lua
+│       │   └── treesitter.lua
+│       ├── init.lua
+│       ├── integrations
+│       │   ├── gitsigns.lua
+│       │   ├── lazy.lua
+│       │   ├── neo-tree.lua
+│       │   └── telescope.lua
+│       ├── palettes
+│       │   ├── ansi87.lua
+│       │   └── default.lua
+│       └── util.lua
+└── README.md
+```
 
-lua/candide/init.lua -> theme bootstrapper
+---
+
