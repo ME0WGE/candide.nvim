@@ -1,6 +1,6 @@
 local palette = {
 	bg = "#000000",
-	fg = "#aaaaaa",
+	fg = "#ffffff",
 	bg_dark = "#0a0a0a",
 	bg_highlight = "#1c1c1c",
 
@@ -25,6 +25,7 @@ local palette = {
 	include = "#5BCBF1",
 	lib     = "#D183D2",
 	type    = "#83F7A9",
+	comment	= "#BCFBD1",
 	var     = "#D3D2CF",
 	value   = "#D183D2",
 	string  = "#D183D2",

@@ -15,6 +15,17 @@ function M.setup(c)
 
 	util.hl("@module", { fg = c.lib })
 
+	util.hl("@function", { fg = c.fg })
+	util.hl("@function.call", { fg = c.fg })
+
+	util.hl("@variable", { fg = c.fg })
+	util.hl("@variable.parameter", { fg = c.fg })
+
+	util.hl("@operator", { fg = c.fg })
+	util.hl("@punctuation.delimiter", { fg = c.fg })
+	util.hl("@punctuation.bracket", { fg = c.fg })
+	util.hl("@punctuation.special", { fg = c.fg })	
+
 end
 
 return M

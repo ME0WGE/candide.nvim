@@ -25,10 +25,13 @@ function M.setup(c)
 	util.hl("Keyword", { fg = c.loop })
 
 	-- return
-	util.hl("Statement", { fg = c.return_ })
+	util.hl("Statement", { fg = c.bright_yellow })
 
 	-- newline symbol if visible
 	util.hl("Special", { fg = c.newline }) 
+
+	-- comments
+	util.hl("Comment", { fg = c.comment, italic = true })
 end
 
 return M
