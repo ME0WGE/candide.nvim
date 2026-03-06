@@ -14,7 +14,7 @@ function M.setup(c)
     ["@string"]   = { fg = c.string },
 
     ["@keyword"]        = { fg = c.loop },
-    ["@keyword.return"] = { fg = c.return_ },
+    ["@keyword.return"] = { fg = c.kw_return },
 
     ["@variable"]           = { fg = c.fg },
     ["@variable.parameter"] = { fg = c.fg },

@@ -31,7 +31,7 @@ local palette = {
 	string  = "#D183D2",
 	newline = "#F0CACA",
 	loop    = "#F39B47",
-	return_ = "#F39B47",
+	kw_return = "#F39B47",
 }
 
 return palette
