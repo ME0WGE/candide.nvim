@@ -3,29 +3,30 @@ local util = require("candide.util")
 local M = {}
 
 function M.setup(c)
+  util.set({
 
-	util.hl("@include", { fg = c.include })
-	util.hl("@type", { fg = c.type })
-	util.hl("@variable", { fg = c.var })
-	util.hl("@constant", { fg = c.value })
-	util.hl("@string", { fg = c.string })
+    ["@include"] = { fg = c.include },
+    ["@module"]  = { fg = c.lib },
 
-	util.hl("@keyword", { fg = c.loop })
-	util.hl("@keyword.return", { fg = c.return_ })
+    ["@type"]    = { fg = c.type },
 
-	util.hl("@module", { fg = c.lib })
+    ["@constant"] = { fg = c.value },
+    ["@string"]   = { fg = c.string },
 
-	util.hl("@function", { fg = c.fg })
-	util.hl("@function.call", { fg = c.fg })
+    ["@keyword"]        = { fg = c.loop },
+    ["@keyword.return"] = { fg = c.return_ },
 
-	util.hl("@variable", { fg = c.fg })
-	util.hl("@variable.parameter", { fg = c.fg })
+    ["@variable"]           = { fg = c.fg },
+    ["@variable.parameter"] = { fg = c.fg },
 
-	util.hl("@operator", { fg = c.fg })
-	util.hl("@punctuation.delimiter", { fg = c.fg })
-	util.hl("@punctuation.bracket", { fg = c.fg })
-	util.hl("@punctuation.special", { fg = c.fg })	
+    ["@function"]      = { fg = c.fg },
+    ["@function.call"] = { fg = c.fg },
 
+    ["@operator"]              = { fg = c.fg },
+    ["@punctuation.delimiter"] = { fg = c.fg },
+    ["@punctuation.bracket"]   = { fg = c.fg },
+    ["@punctuation.special"]   = { fg = c.fg },
+  })
 end
 
 return M

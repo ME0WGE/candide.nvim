@@ -3,12 +3,14 @@ local util = require("candide.util")
 local M = {}
 
 function M.setup(c)
-    util.hl("Normal", { fg = c.fg, bg = c.bg })
-    util.hl("LineNr", { fg = c.bright_yellow })
-    util.hl("CursorLineNr", { fg = c.yellow, bold = true })
+  util.set({
+    Normal       = { fg = c.fg, bg = c.bg },
+    LineNr       = { fg = c.bright_yellow },
+    CursorLineNr = { fg = c.yellow, bold = true },
 
-    util.hl("Visual", { bg = c.bg_highlight })
-    util.hl("Search", { fg = c.bg, bg = c.yellow })
+    Visual       = { bg = c.bg_highlight },
+    Search       = { fg = c.bg, bg = c.yellow },
+  })
 end
 
 return M

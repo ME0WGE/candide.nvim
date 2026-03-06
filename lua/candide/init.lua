@@ -9,11 +9,11 @@ function M.load()
 
 	vim.g.colors_name = "candide"
 
-	local palette = require("candide.palette")
+	local c = require("candide.palette")
 
-	require("candide.highlights.editor").setup(palette)
-	require("candide.highlights.syntax").setup(palette)
-	require("candide.highlights.treesitter").setup(palette)
+	require("candide.highlights.editor").setup(c)
+	require("candide.highlights.syntax").setup(c)
+	require("candide.highlights.treesitter").setup(c)
 	--require("candide.highlights.lsp").setup(palette)
 
 
