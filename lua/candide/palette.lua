@@ -21,6 +21,16 @@ local palette = {
 	bright_magenta = "#ff55ff",
 	bright_cyan    = "#55ffff",
 	bright_white   = "#ffffff",
+
+	include = "#5BCBF1",
+	lib     = "#D183D2",
+	type    = "#83F7A9",
+	var     = "#D3D2CF",
+	value   = "#D183D2",
+	string  = "#D183D2",
+	newline = "#F0CACA",
+	loop    = "#F39B47",
+	return_ = "#F39B47",
 }
 
 return palette
